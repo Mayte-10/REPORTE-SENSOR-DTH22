@@ -1,49 +1,29 @@
 # REPORTE-SENSOR-DTH22
 ## USO DEL SENSOR DTH22
 ### Reporte: Sensor DHT22 con Tarjeta ESP32
-1. Introducción
 
-El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y humedad relativa. Su combinación con la tarjeta ESP32 permite el monitoreo ambiental mediante " transmisión y procesamiento de datos " en tiempo real.
+## 1. Introducción
+
+El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y humedad relativa. Su combinación con la tarjeta ESP32 permite el monitoreo ambiental mediante transmisión y procesamiento de datos en tiempo real.
 
 2. Materiales Utilizados
 
-Sensor DHT22
+- Sensor DHT22
 
-Tarjeta ESP32
+- Tarjeta ESP32
 
-Resistencias y cables jumper
+- WOKWI SIMULATOR (https://wokwi.com) 
 
-Software Arduino IDE o equivalente
+# 2. PROCEDIMIENTO 
 
-[Insertar foto del material aquí]
+- Ingresar a  WOKWI SIMULATOR y seleccionar el microcontrolador ESP32
+## 3. Colocar el siguiente código 
 
-3. Conexión del DHT22 al ESP32
-
-La conexión típica es:
-
-VCC → 3.3V del ESP32
-
-GND → GND
-
-DATA → Pin digital (ej. GPIO 4)
-Se recomienda una resistencia de 10kΩ entre DATA y VCC.
-
-[Insertar foto de conexiones aquí]
-
-4. Funcionamiento
-
-El DHT22 envía datos digitales mediante un protocolo de un solo hilo.
-El ESP32 lee estas señales y las procesa para obtener valores de temperatura (°C) y humedad (%).
-
-[Insertar foto del montaje o del sensor funcionando]
-
-5.Código 
-#include "DHTesp.h"
-
+```#include "DHTesp.h"
+#include <LiquidCrystal_I2C.h>
 
 const int DHT_PIN = 15;
 DHTesp dhtSensor;
-
 
 void setup() {
 
@@ -58,9 +38,22 @@ void loop() {
   Serial.println("Humidity: " + String(data.humidity, 1) + "%");
   Serial.println("---");
   delay(1000);
-}
+} ```
 
 
-6. Conclusión
+## 4. Seleccionar las bibliotecas correspondientes 
 
-El sensor DHT22 combinado con la ESP32 permite obtener mediciones precisas y estables de temperatura y humedad, siendo ideal para proyectos de IoT, domótica y monitoreo ambiental.
+## 5. Seleccionar el sensor DHT22
+
+## 6. Conexión del DHT22 al ESP32
+
+## 7. Funcionamiento, se debe iniciar simulación
+
+El DHT22 envía datos digitales.
+El ESP32 lee estas señales y las procesa para obtener valores de temperatura (°C) y humedad (%).
+
+
+
+## 8. Conclusión
+
+El sensor DHT22 combinado con la ESP32 permite obtener mediciones precisas y estables de temperatura y humedad, siendo este un ejemplo de un sistema de adquisición de datos.
