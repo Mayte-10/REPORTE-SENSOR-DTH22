@@ -17,6 +17,11 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
 # 2. PROCEDIMIENTO 
 
 - Ingresar a  WOKWI SIMULATOR y seleccionar el microcontrolador ESP32
+
+  ![](                )
+  ![](                )
+  ![](                )
+  
 ## 3. Colocar el siguiente código 
 
 ```#include "DHTesp.h"
@@ -41,13 +46,17 @@ void loop() {
 } ```
 
 
-## 4. Seleccionar las bibliotecas correspondientes 
+## 4. Seleccionar las bibliotecas correspondientes
+![](                )
+
 
 ## 5. Seleccionar el sensor DHT22
-
+![](                )
 ## 6. Conexión del DHT22 al ESP32
-
+![](                )
 ## 7. Funcionamiento, se debe iniciar simulación
+![](                )
+
 
 El DHT22 envía datos digitales.
 El ESP32 lee estas señales y las procesa para obtener valores de temperatura (°C) y humedad (%).
