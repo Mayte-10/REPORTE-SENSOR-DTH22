@@ -20,11 +20,11 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
 
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2021.14.00%20(1).jpeg)
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.50.01.jpeg)
-  ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.34.16.jpeg)
+
   
 ## 3. Colocar el siguiente código 
 
-```#include "DHTesp.h"
+#include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 
 const int DHT_PIN = 15;
@@ -56,9 +56,10 @@ void loop() {
 ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.34.16.jpeg).
   
 ## 7. Funcionamiento, se debe iniciar simulación
-![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.34.16.jpeg)
+![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/commit/8ad4b8855105723498b156d5b4d4aae5c5dccff6)
 ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.31.10.jpeg)
 
+![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.32.59.jpeg).
 
 El DHT22 envía datos digitales.
 El ESP32 lee estas señales y las procesa para obtener valores de temperatura (°C) y humedad (%).
