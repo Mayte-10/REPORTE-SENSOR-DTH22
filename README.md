@@ -24,7 +24,7 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
   
 ## 3. Colocar el siguiente código 
 
-#include "DHTesp.h"
+```#include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 
 const int DHT_PIN = 15;
@@ -43,7 +43,7 @@ void loop() {
   Serial.println("Humidity: " + String(data.humidity, 1) + "%");
   Serial.println("---");
   delay(1000);
-}
+}```.
 
 
 ## 4. Seleccionar las bibliotecas correspondientes
