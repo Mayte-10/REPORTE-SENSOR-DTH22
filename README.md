@@ -46,6 +46,12 @@ void loop() {
 }```.
 
 
+
+
+
+
+
+
 ## 4. Seleccionar las bibliotecas correspondientes
 ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.30.41.jpeg)
 
