@@ -47,7 +47,7 @@ void loop() {
 
 
 ## 4. Seleccionar las bibliotecas correspondientes
-![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/commit/8ad4b8855105723498b156d5b4d4aae5c5dccff6)
+![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.30.41.jpeg)
 
 
 ## 5. Seleccionar el sensor DHT22
