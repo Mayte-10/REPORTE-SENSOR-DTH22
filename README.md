@@ -19,7 +19,7 @@ El sensor DHT22 es un dispositivo digital utilizado para medir temperatura y hum
 - Ingresar a  WOKWI SIMULATOR y seleccionar el microcontrolador ESP32
 
   ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2021.14.00%20(1).jpeg)
-  ![](                )
+  ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.50.01.jpeg)
   ![](                )
   
 ## 3. Colocar el siguiente código 
