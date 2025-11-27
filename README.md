@@ -51,13 +51,11 @@ void loop() {
 
 
 ## 5. Seleccionar el sensor DHT22
-![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.32.59.jpeg).
+![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.31.10.jpeg)
 ## 6. Conexión del DHT22 al ESP32
 ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.34.16.jpeg).
   
 ## 7. Funcionamiento, se debe iniciar simulación
-![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/commit/8ad4b8855105723498b156d5b4d4aae5c5dccff6)
-![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.31.10.jpeg)
 
 ![](https://github.com/Mayte-10/REPORTE-SENSOR-DTH22/blob/main/WhatsApp%20Image%202025-11-23%20at%2020.32.59.jpeg).
 
